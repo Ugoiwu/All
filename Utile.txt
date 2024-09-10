@@ -1,0 +1,5 @@
+importer un fichier
+    import urllib.request
+    URL = "http://www.python.org/images/python-logo.gif"
+    filename = " logo.gif"
+    urllib.request.urlretrieve (URL, filename)
